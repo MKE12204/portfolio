@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.port_start{
+    width: 1920px;
+    background-color: #212529;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: space-between;    
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+.header_btn {
+    width: 121px;
+    height: 54px;
+    border-radius: 50px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#ffb742;
+    cursor: pointer;
+}
+
+ .possibilities {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+ .home {
+    margin-right: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.home:hover {
+    color:#ffb742;
+    transition: 0.5s all;
+}
+
+.about {
+    margin-right: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.about:hover {
+    color:#ffb742;
+    transition: 0.5s all;
+}
+
+.skills{
+    margin-right: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.skills:hover {
+    color:#ffb742;
+    transition: 0.5s all;
+}
+
+.portfolio {
+    margin-right: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.portfolio:hover {
+    color:#ffb742;
+    transition: 0.5s all;
+}
+
+.contact {
+    margin-right: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact:hover {
+    color:#ffb742;
+    transition: 0.5s all;
+}
+
+.subheader {
+    width: 1920px;
+    padding: 17px 0 0;
+    background-color: #212529;
+}
+
+.title {
+    margin-top: 115px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color:#fff;
+}
+
+.title_span {
+    color:#ffb742;
+}
+
+.main_title {
+    margin-top: 15px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.subtitle {
+    margin-top: 40px;
+    font-family: Inter;
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+}
+
+.title_img {
+    margin: 22px 0 138px 850px;
+}
+
+.block {
+    width: 429px;
+    padding: 29px 0px 29px 31px ;
+    border-radius: 10px;
+    margin-left: 20px ;
+    background-color: rgba(56, 62, 69, 0.44);
+}
+
+ .years_img {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 15px ;
+}
+
+.block_text {
+    display: block;
+    font-family: Inter;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #212529;
+}
+
+.block_icon {
+    display: block;
+    text-align: right;
+    padding: 50px 12px 60px 60px;
+}
+
+
+.subheader_block {
+    display: inline-block;
+}
+
+.block:hover {
+    background-image: linear-gradient(105deg, #ffb742 0%, rgba(255, 123, 66, 0.76) 99%); 
+    transition: 1s all ;
+}
+
+.about_me{
+    background-color: #212529;
+}
+
+.about_me_img {
+    width: 517px;
+    height: 535.1px;
+}
+
+.about_me_btn {
+    width: 148px;
+    height: 42px;
+    margin: 0 534px 40.3px 0;
+    padding: 6px 25px;
+    border-radius: 50px;
+    font-family: Poppins;
+    background-color: rgba(255, 255, 255, 0.08);
+    border:none;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffb742;
+    cursor: pointer;
+}
+
+.about_me_title {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.about_me_p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    color: #d4d4d4;
+}
+
+.second_btn {
+    margin: 54.5px 524.4px 0 10px;
+    padding: 12px 26px;
+    border-radius: 50px;
+    background-color: #ffb742;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #212529;
+}
+
+.about_me_text {
+    display: flex;
+    justify-content: flex-end;
+}
