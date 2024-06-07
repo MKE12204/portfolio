@@ -6,7 +6,6 @@ body {
 }
 
 .port_start{
-    width: 1920px;
     background-color: #212529;
 }
 
@@ -106,7 +105,6 @@ body {
 }
 
 .subheader {
-    width: 1920px;
     padding: 17px 0 0;
     background-color: #212529;
 }
@@ -148,6 +146,7 @@ body {
 
 .block {
     width: 429px;
+    height: 120px;
     padding: 29px 0px 29px 31px ;
     border-radius: 10px;
     margin-left: 20px ;
@@ -168,12 +167,13 @@ body {
     font-weight: bold;
     text-align: center;
     color: #212529;
+    text-align: center;
 }
 
 .block_icon {
-    display: block;
+    display: inline-block;
     text-align: right;
-    padding: 50px 12px 60px 60px;
+    padding: 30px 0 30px 32px;
 }
 
 
@@ -187,6 +187,9 @@ body {
 }
 
 .about_me{
+    height:858px;
+    display: flex;
+    justify-content: space-between;
     background-color: #212529;
 }
 
@@ -212,6 +215,8 @@ body {
 }
 
 .about_me_title {
+    display: inline-block;
+    margin-top: 10px;
     font-family: Roboto;
     font-size: 48px;
     font-weight: bold;
@@ -226,10 +231,13 @@ body {
 }
 
 .second_btn {
+    width: 147.6px;
+    height: 54px;
     margin: 54.5px 524.4px 0 10px;
     padding: 12px 26px;
     border-radius: 50px;
     background-color: #ffb742;
+    border:none;
     font-family: Poppins;
     font-size: 18px;
     font-weight: bold;
@@ -238,6 +246,14 @@ body {
 }
 
 .about_me_text {
-    display: flex;
-    justify-content: flex-end;
+    margin-top:220px ;
+    margin-right: 57px;
+    margin-left: 290px;
 }
+
+.img_dsr {
+    margin-top:220px;
+    margin-right: 57px;
+}
+
+
