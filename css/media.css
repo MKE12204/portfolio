@@ -1,0 +1,64 @@
+@media(max-width:1200px) {
+
+    .title_img {
+        margin: 0 auto; /* тут почему-то и в подобных элементах нет реакции  */
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .about_me {
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .img_dsr {
+        margin-left: 270px;
+    }
+
+    .my_skills_icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .icon_sk {
+        width: 60px;
+        height: 60px;
+    }
+
+    .mss_btn {
+        margin-bottom: 13px;
+    }
+ 
+    .example_selection{
+        margin: 30px 0px 48px 0px ;
+    }
+
+    .example_main_img {
+    display: flex;
+    flex-direction: column;    
+    }
+
+    .mark_header {
+        margin: 0 auto;
+    }
+
+}
+
+@media(max-width:991px) {
+    .my_skills_icon {
+        margin-left: 30px;
+    }
+
+    .mark_v {
+        font-size: 10px;
+        padding-bottom: 30px ;
+        text-align: center;
+    }
+}

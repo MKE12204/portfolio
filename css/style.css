@@ -141,13 +141,12 @@ body {
 }
 
 .title_img {
-    margin: 22px 0 138px 850px;
+    margin: 22px 0 138px 660px;
 }
 
 .block {
     width: 429px;
-    height: 120px;
-    padding: 29px 0px 29px 31px ;
+    display: flex;
     border-radius: 10px;
     margin-left: 20px ;
     background-color: rgba(56, 62, 69, 0.44);
@@ -160,25 +159,29 @@ body {
 }
 
 .block_text {
-    display: block;
+    display: inline-block;
     font-family: Inter;
     padding-top: 15px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
+    padding-left: 70px;
     color: #212529;
     text-align: center;
 }
 
+
 .block_icon {
     display: inline-block;
-    text-align: right;
-    padding: 30px 0 30px 32px;
+    text-align: center;
+    padding: 50px 12px 30px 162px;
+    color: #b3b3b3;
 }
 
 
-.subheader_block {
-    display: inline-block;
+.row{
+    display: flex;
+    justify-content: center;
 }
 
 .block:hover {
@@ -187,7 +190,6 @@ body {
 }
 
 .about_me{
-    height:858px;
     display: flex;
     justify-content: space-between;
     background-color: #212529;
@@ -256,4 +258,353 @@ body {
     margin-right: 57px;
 }
 
+.my_skills {
+    background-color: #212529;
+    overflow: hidden;
+}
 
+.my_skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills_btn {
+    padding: 6px 25px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.08);
+    border:none;
+    width: 148px;
+    height: 42px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffb742;
+    cursor: pointer;
+}
+
+.my_skills_header {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 21px;
+    color: #fff;
+}
+
+.my_skills_subheader {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 30px ;
+    color: #fff;
+}
+
+.my_skills_icon {
+    margin-top: 152px;
+}
+
+.mss_btn {
+    width: 147.6px;
+    height: 54px;
+    padding: 12px 26px;
+    border-radius: 50px;
+    background-color: #ffb742;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #212529;
+    margin-top: 63px ;
+    cursor: pointer;
+}
+
+.my_skills_text{
+    margin-top: 132px;
+    margin-left: 60px;
+}
+
+.icon_sk {
+    width: 80px;
+    height: 80px;
+    flex-grow: 0;
+    margin: 0 16px 16px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #383e45;
+}
+
+.icon_sk:hover {
+    background-color:#ffb742;
+    transition: 1s all;
+}
+
+.example {
+    overflow: hidden;
+    background-color: #212529;
+}
+
+.example_btn {
+    width: 160px;
+    height: 42px;
+    display: flex;
+    padding: 12px 25px 12px 25px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.08);
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffb742;
+    border:none;
+    margin: 120px 640px 20px 690px ;
+}
+
+.example_header {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.example_selection {
+   margin: 30px 0px 48px 500px ;
+}
+
+.all{
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff; 
+    margin-right: 54px;
+}
+
+.all:hover {
+    background-color:#ffb742;
+    color:#212529;
+    transition: 1s all;
+}
+
+.example_main_img {
+    display: block;
+}
+
+.img2 {
+    margin-bottom: 200px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.img4 {
+    margin-right: 23px;
+    margin-top: 20px;
+    margin-bottom: 290px;
+    margin-left: 120px;
+}
+
+.img5 {
+    margin-bottom: 100px;
+    margin-left: 13px;
+}
+
+.img6 {
+    margin-bottom: 290px;
+    margin-left: 43px;
+}
+
+.img1 {
+    margin-left: 120px;
+}
+
+
+
+.mark {
+    background-color: #212529;
+}
+
+.mark_header {
+    width: 192px;
+    height: 42px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin:90px 0 18px 680px  ;
+    border:none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #ffb742;
+    cursor: pointer;
+}
+
+.mark_subheader {
+    font-family: Roboto;
+    font-size: 39.3px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+
+.mark_block {
+    width: 270px;
+    height: 360px;
+    margin: 90.3px 40.1px 153px 40.1px;
+    padding: 51.1px 51.9px 48.8px 32px;
+    border-radius: 7.9px;
+    background-color: #fff;
+}
+
+
+/* .mark_icon {
+    padding: 51px 245px 22px 33px ;
+} */
+
+.fa-star {
+    row-gap: 10px;
+    padding-bottom: 26px;
+    color:#ffb742;
+}
+
+.mark_name {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+
+.professional {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+}
+
+.mark_dsr {
+    display: flex;
+    flex-direction: row;
+    margin-top: 39px;
+}
+
+.mark_v {
+    margin-left:20px ;
+    margin-top: 20px;
+    margin-bottom: 56px;
+}
+
+.mark_start {
+    display: flex;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+footer {
+    background-color: #1c1c1c;
+    height: 270px;
+    padding: 80px 48px 89.4px 
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer_first {
+    display: flex;
+    flex-direction: column;
+}
+
+.xfr {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffb742;
+}
+
+.footer_professional {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #d4d4d4;
+    margin-top: 30px; 
+}
+
+.first_userful {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 21.6px;
+    font-weight: bold;
+    color: #f5fbf2;
+}
+
+.first_home {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#ffb742;
+    margin-top:13px;
+}
+
+.first_about {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    color: #7b7b7b;
+    margin-top: 10px;
+  }
+
+  .first_about:hover {
+    color: #ffb742;
+    cursor: pointer;
+    transition: 1s all;
+  }
+
+  .social_media {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 21.6px;
+    font-weight: bold;
+    color: #f5fbf2;
+  }
+
+  .mda {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7b7b7b;
+    margin-top: 10px;
+  }
+
+  .mda:hover {
+    color: #ffb742;
+    cursor: pointer;
+    transition: 1s all;
+  }
+
+  .news {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 21.6px;
+    font-weight: bold;
+    color: #f5fbf2;
+  }
+  
+
+  .new {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7b7b7b;
+    margin-top: 10px;
+  }
+
+  .new:hover{
+    color:#ffb742 ;
+    cursor: pointer;
+    transition: 1s all;
+  }
+
+  .firstsd_title {
+    color:#ffb742;
+  }
+
+ 
