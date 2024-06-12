@@ -5,6 +5,11 @@ body {
     margin: 0;
 }
 
+.img_sv{
+    padding-left: 31px;
+}
+
+
 .port_start{
     background-color: #212529;
 }
@@ -26,6 +31,7 @@ body {
     font-weight: bold;
     background-color:#ffb742;
     cursor: pointer;
+    margin-right: 31px;
 }
 
  .possibilities {
@@ -141,21 +147,32 @@ body {
 }
 
 .title_img {
-    margin: 22px 0 138px 660px;
+    display: block;
+    margin: 0 auto ;
 }
 
+
+
 .block {
-    width: 429px;
+    width: 26%;
     display: flex;
     border-radius: 10px;
     margin-left: 20px ;
     background-color: rgba(56, 62, 69, 0.44);
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+}
+
+
+.subheader_block {
+    width: 30%;
+    padding: 10px;
 }
 
  .years_img {
     display: inline-block;
-    padding-top: 15px;
-    padding-left: 15px ;
 }
 
 .block_text {
@@ -164,18 +181,34 @@ body {
     padding-top: 15px;
     font-size: 16px;
     font-weight: bold;
-    text-align: center;
-    padding-left: 70px;
     color: #212529;
     text-align: center;
+}
+
+.firstsd_title{
+    color: #ffb742;
+    margin: 0;
+    padding-bottom:20px ;
+}
+
+.second_title {
+    padding-bottom: 27px;
+}
+
+.first_title {
+    margin: 0;
 }
 
 
 .block_icon {
     display: inline-block;
     text-align: center;
-    padding: 50px 12px 30px 162px;
     color: #b3b3b3;
+}
+
+.second_title{
+    color:white;
+    margin: 0;
 }
 
 
@@ -190,15 +223,20 @@ body {
 }
 
 .about_me{
-    display: flex;
-    justify-content: space-between;
     background-color: #212529;
 }
 
-.about_me_img {
-    width: 517px;
-    height: 535.1px;
+.about_me_sv {
+    display: flex;
+    justify-content: space-between;
 }
+
+.about_me_img {
+    width: 40%;
+    padding-top: 40px; 
+}
+
+
 
 .about_me_btn {
     width: 148px;
@@ -248,14 +286,13 @@ body {
 }
 
 .about_me_text {
-    margin-top:220px ;
-    margin-right: 57px;
-    margin-left: 290px;
+    padding-right: 40px;
+   padding-top:40px ;
+   width: 45%;
 }
 
 .img_dsr {
-    margin-top:220px;
-    margin-right: 57px;
+    width: 100%;
 }
 
 .my_skills {
@@ -304,7 +341,6 @@ body {
 }
 
 .mss_btn {
-    width: 147.6px;
     height: 54px;
     padding: 12px 26px;
     border-radius: 50px;
@@ -315,6 +351,7 @@ body {
     text-align: center;
     color: #212529;
     margin-top: 63px ;
+    border:none;
     cursor: pointer;
 }
 
@@ -343,8 +380,14 @@ body {
     background-color: #212529;
 }
 
+.example_start {
+    margin-top: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .example_btn {
-    width: 160px;
     height: 42px;
     display: flex;
     padding: 12px 25px 12px 25px;
@@ -356,7 +399,7 @@ body {
     text-align: center;
     color: #ffb742;
     border:none;
-    margin: 120px 640px 20px 690px ;
+    
 }
 
 .example_header {
@@ -365,10 +408,12 @@ body {
     font-weight: bold;
     color: #fff;
     text-align: center;
+    margin-top: 13px;
 }
 
 .example_selection {
-   margin: 30px 0px 48px 500px ;
+    margin-top: 20px;
+   /* margin: 30px 0px 48px 500px ; */
 }
 
 .all{
@@ -382,53 +427,59 @@ body {
 
 .all:hover {
     background-color:#ffb742;
+    padding: 10px 20px 10px 20px ;
+    border-radius:5px;
     color:#212529;
     transition: 1s all;
 }
 
-.example_main_img {
-    display: block;
+.example_main_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.example_img1 {
+    width: 105%;
+}
+
+.example_img2{
+    width: 110%;
+}
+
+.example_img3 {
+    width: 130%;
 }
 
 .img2 {
-    margin-bottom: 200px;
-    margin-left: 35px;
-    margin-right: 35px;
+    padding-top: 30px;
 }
 
 .img4 {
-    margin-right: 23px;
-    margin-top: 20px;
-    margin-bottom: 290px;
-    margin-left: 120px;
-}
-
-.img5 {
-    margin-bottom: 100px;
-    margin-left: 13px;
+    padding-top: 30px;
 }
 
 .img6 {
-    margin-bottom: 290px;
-    margin-left: 43px;
+    padding-top: 30px;
 }
-
-.img1 {
-    margin-left: 120px;
-}
-
-
 
 .mark {
     background-color: #212529;
+    overflow: hidden;
+}
+
+.mark_title_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 126px;
 }
 
 .mark_header {
-    width: 192px;
-    height: 42px;
-    border-radius: 50px;
+    border-radius: 70px;
     background-color: rgba(255, 255, 255, 0.08);
-    margin:90px 0 18px 680px  ;
+    padding: 5px 10px 5px 10px;
     border:none;
     font-family: Poppins;
     font-size: 16px;
@@ -439,6 +490,7 @@ body {
 }
 
 .mark_subheader {
+    margin-top: 15px;
     font-family: Roboto;
     font-size: 39.3px;
     font-weight: bold;
@@ -448,9 +500,11 @@ body {
 
 .mark_block {
     width: 270px;
-    height: 360px;
-    margin: 90.3px 40.1px 153px 40.1px;
-    padding: 51.1px 51.9px 48.8px 32px;
+    padding: 51.1px 51.9px 20px 32px;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 91px;
+    margin-bottom: 240px;
     border-radius: 7.9px;
     background-color: #fff;
 }
@@ -500,7 +554,6 @@ body {
 
 footer {
     background-color: #1c1c1c;
-    height: 270px;
     padding: 80px 48px 89.4px 
 }
 

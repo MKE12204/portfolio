@@ -5,21 +5,28 @@
     }
 
     .row {
-        display: flex;
         flex-direction: column;
         row-gap: 20px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about_me_btn {
+       margin: 220px;
+    }
+
+    .about_me_sv {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
  
     .about_me {
         display: flex;
         flex-direction: column;
     } 
-
-    .img_dsr {
-        margin-left: 270px;
-    }
 
     .my_skills_icon {
         display: flex;
@@ -40,13 +47,12 @@
         margin: 30px 0px 48px 0px ;
     }
 
-    .example_main_img {
-    display: flex;
-    flex-direction: column;    
-    }
-
     .mark_header {
         margin: 0 auto;
+    }
+
+    .example_main_img{
+        flex-direction: column;
     }
 
 }
@@ -61,4 +67,20 @@
         padding-bottom: 30px ;
         text-align: center;
     }
+
+    .row {
+        width: 100%;
+    }
+
+    .example_main_img{
+        align-items: center;
+    }
+
+    .example_img3 {
+        margin-left: 165px;
+    }
+}
+
+@media(max-width:770px){
+    
 }
